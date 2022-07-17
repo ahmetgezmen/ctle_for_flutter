@@ -1,55 +1,57 @@
 import 'package:ctle/core/base/sliders.dart';
 
 class CharList {
-  final List _charList = [
-    _charList1,
-    _charList2,
-    _charList3,
-    _charList4,
-    _charList5,
-    _charList6,
-    _charList7,
-    _charList8,
-    _charList9,
-    _charList10,
-    _charList11,
-    _charList12,
-    _charList13,
-    _charList14,
-    _charList15,
-    _charList16,
-    _charList17,
-    _charList18,
-    _charList19,
-    _charList20,
-    _charList21,
-    _charList22,
-    _charList23,
-    _charList24,
-    _charList25,
-    _charList26,
-    _charList27,
-    _charList28,
-    _charList29,
-    _charList30,
-    _charList31,
-    _charList32,
-    _charList33,
-    _charList34,
-    _charList35,
-    _charList36,
-    _charList37,
-    _charList38,
-    _charList39,
-    _charList40
-  ];
-  Map<int, String> reSlideCharListAsMap(charListNumber, slideNumber) {
+
+  static Map<int, String> reSlideCharListAsMap(charListNumber, slideNumber) {
     return Sliders.reSlide(_charList[charListNumber], slideNumber).split('').asMap();
   }
-  Map<int, String> slideCharListAsMap(charListNumber, slideNumber) {
+  static Map<int, String> slideCharListAsMap(charListNumber, slideNumber) {
     return Sliders.slide(_charList[charListNumber], slideNumber).split('').asMap();
   }
 }
+
+final List _charList = [
+  _charList1,
+  _charList2,
+  _charList3,
+  _charList4,
+  _charList5,
+  _charList6,
+  _charList7,
+  _charList8,
+  _charList9,
+  _charList10,
+  _charList11,
+  _charList12,
+  _charList13,
+  _charList14,
+  _charList15,
+  _charList16,
+  _charList17,
+  _charList18,
+  _charList19,
+  _charList20,
+  _charList21,
+  _charList22,
+  _charList23,
+  _charList24,
+  _charList25,
+  _charList26,
+  _charList27,
+  _charList28,
+  _charList29,
+  _charList30,
+  _charList31,
+  _charList32,
+  _charList33,
+  _charList34,
+  _charList35,
+  _charList36,
+  _charList37,
+  _charList38,
+  _charList39,
+  _charList40
+];
 
 const _charList1 =
     "!6Z>CiM]yŞ5jBV/}RĞGPğ*?JKNn)7oA(vpuİÇÜ:Xb{E2'I3L^W.0Uz,#mx4&ç_ö9DQhgfı-[%+qYlÖ=tOes;adş8üTHrS1kc|<Fw@";
